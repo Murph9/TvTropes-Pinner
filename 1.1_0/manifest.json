@@ -1,0 +1,15 @@
+{
+   "content_scripts": [ {
+      "js": [ "jquery-2.1.1.min.js", "content.js" ],
+      "matches": [ "http://tvtropes.org/*", "https://tvtropes.org/*" ]
+   } ],
+   "description": "Pin your favourite shows, films and tropes to highlight them in the list of examples.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "name": "PinAShow for TvTropes -edited by murph9",
+   "version": "1.1"
+}
